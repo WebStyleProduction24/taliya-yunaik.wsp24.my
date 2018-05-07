@@ -10,9 +10,22 @@ function enqueue_styles() {
 	wp_enqueue_style( 'fonts');
 	wp_register_style( 'icons', get_template_directory_uri().'/css/icons.css');
 	wp_enqueue_style( 'icons');
+
 	wp_register_style( 'old', get_template_directory_uri().'/css/old.css');
 	wp_enqueue_style( 'old');
+	wp_register_style( 'sequencejs-theme.sliding-horizontal-parallax', get_template_directory_uri().'/css/sequencejs-theme.sliding-horizontal-parallax.css');
+	wp_enqueue_style( 'sequencejs-theme.sliding-horizontal-parallax');
+	wp_register_style( 'font-awesome', get_template_directory_uri().'/css/font-awesome.css');
+	wp_enqueue_style( 'font-awesome');
+	wp_register_style( 'engine', get_template_directory_uri().'/css/engine.css');
+	wp_enqueue_style( 'engine');
+	wp_register_style( 'bootstrap', get_template_directory_uri().'/css/bootstrap.css');
+	wp_enqueue_style( 'bootstrap');
+	wp_register_style( 'animate', get_template_directory_uri().'/css/animate.css');
+	wp_enqueue_style( 'animate');
 }
+
+
 add_action('wp_enqueue_scripts', 'enqueue_styles');
 /*
  * Функция создает дубликат поста в виде черновика и редиректит на его страницу редактирования

@@ -1,6 +1,8 @@
 @charset "utf-8";
 /*Старые стили*/
 
+@import "edit.css" all;
+
 html, body {
  margin: 0;
  padding: 0;
