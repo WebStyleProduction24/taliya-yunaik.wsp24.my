@@ -10,6 +10,8 @@ function enqueue_styles() {
 	wp_enqueue_style( 'fonts');
 	wp_register_style( 'icons', get_template_directory_uri().'/css/icons.css');
 	wp_enqueue_style( 'icons');
+	wp_register_style( 'old', get_template_directory_uri().'/css/old.css');
+	wp_enqueue_style( 'old');
 }
 add_action('wp_enqueue_scripts', 'enqueue_styles');
 /*
