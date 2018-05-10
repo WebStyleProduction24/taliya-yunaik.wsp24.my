@@ -129,4 +129,5 @@ function true_duplicate_post_link( $actions, $post ) {
 }
  
 add_filter( 'post_row_actions', 'true_duplicate_post_link', 10, 2 );
-?>
+
+register_nav_menu( 'menu', 'Главное меню' ); 

@@ -1,22 +1,165 @@
 /* ---------- ��������� ������� ---------- */
-#service .col4 .fa, #service h4{color:rgb(168, 222, 65);;}
-#service .col4:hover .fa:hover {background:#1D1D1D; color:#fff;}
-#l-container{max-width:100%;} /* ��� ��������� boxed ������ ������� 100% �������� �� 1200px */
-#content { float: left;}  #sidebar { float: right;}  /* ��� ����������� ������� �� ����� �������, �������� ������� float: right; � float: left;  */
-body{background:#f6f6f6}
-::selection{background:#313131;color:#FFFFFF;}
-a, a:link, a:visited, a:active, .top-left span a:hover, .top-right span a:hover, .list-small li:before, .serch:hover .fa, .menu-icon:hover .fa, #menu .uMenuRoot > li > a:hover, #menu .uMenuRoot > li > a.uMenuItemA, .search-close span:hover, .s-2,  #blog.col4 h5 a:hover, .worknews h5 a:hover, .p-details span i, .f-contact .fa, #go-top:hover, .e-details-right .fa, .calMdayA, #top .fa, .block .navcat:before, a.navcat:hover, .buy-now .about > h1 > b, .userinfo .info ul li em{color:#313131;}
-a:hover{color:#212121;}
-#l-container input[type="button"], #l-container input[type="submit"], #l-container input[type="reset"], .flex-control-paging li a:hover, .flex-control-nav .flex-active, .work a.ulightbox span, .button.b-color, .f-soc a, .swchItemA span, .swchItem span, .swchItemA1 span, .swchItem1 span, .calWday, .calWdaySu, .calWdaySe, .gTableTop, .switchActive, .next span, .prev span, .navigation span, .navigation a:hover, th.workday, .userinfo span[onclick*=javascript], .login-form button {background:#313131;}
-.nicescroll-rails > div, .tagcl a:hover, .login-menu li:last-child a{background:#074D15 !important;}
-.p-cats-list{border-top:1px solid #313131;}
-.buy-now {border-top: 3px solid #313131;}
-.userinfo span[onclick*=javascript]:after {border-left-color:#313131 !important;}
-.search-close span:hover, .fotorama__thumb-border, .login-menu li a:hover, .login-menu li:nth-child(2) a{border-color:#313131 !important;}
-.tagcl a, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {border:1px solid #313131;}
-a.rev-arrow:hover{border-color:#313131 !important;color:#313131 !important;}
-a.rev-arrow:hover i, .e-title a:hover, .userinfo .info ul li span, .contacts a, .logo:hover, #dropmenudiv a:hover{color:#313131 !important;}
-@media screen and (min-width:940px){#menu .uMenuRoot > li > a.uMenuItemA, #menu .uMenuRoot > li > a:hover, #menu .uMenuRoot > .uWithSubmenu:hover > a{box-shadow:inset 0 3px 0 0 #536F1E;} #menu .uWithSubmenu ul{border-top:1px solid #0C581B;}}
-@media screen and (max-width:939px){#menu{box-shadow:inset 0 3px 0 0 #313131, 0 5px 10px rgba(0, 0, 0, 0.15);}}
+
+#service .col4 .fa,
+#service h4 {
+    color: rgb(168, 222, 65);
+    ;
+}
+
+#service .col4:hover .fa:hover {
+    background: #1D1D1D;
+    color: #fff;
+}
+
+#l-container {
+    max-width: 100%;
+}
+
+
+/* ��� ��������� boxed ������ ������� 100% �������� �� 1200px */
+
+#content {
+    float: left;
+}
+
+#sidebar {
+    float: right;
+}
+
+
+/* ��� ����������� ������� �� ����� �������, �������� ������� float: right; � float: left;  */
+
+body {
+    background: #f6f6f6
+}
+
+::selection {
+    background: #313131;
+    color: #FFFFFF;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+.top-left span a:hover,
+.top-right span a:hover,
+.list-small li:before,
+.serch:hover .fa,
+.menu-icon:hover .fa,
+#menu .uMenuRoot>li>a:hover,
+#menu .uMenuRoot>li>a.uMenuItemA,
+.search-close span:hover,
+.s-2,
+#blog.col4 h5 a:hover,
+.worknews h5 a:hover,
+.p-details span i,
+.f-contact .fa,
+#go-top:hover,
+.e-details-right .fa,
+.calMdayA,
+#top .fa,
+.block .navcat:before,
+a.navcat:hover,
+.buy-now .about>h1>b,
+.userinfo .info ul li em {
+    color: #313131;
+}
+
+a:hover {
+    color: #212121;
+}
+
+#l-container input[type="button"],
+#l-container input[type="submit"],
+#l-container input[type="reset"],
+.flex-control-paging li a:hover,
+.flex-control-nav .flex-active,
+.work a.ulightbox span,
+.button.b-color,
+.f-soc a,
+.swchItemA span,
+.swchItem span,
+.swchItemA1 span,
+.swchItem1 span,
+.calWday,
+.calWdaySu,
+.calWdaySe,
+.gTableTop,
+.switchActive,
+.next span,
+.prev span,
+.navigation span,
+.navigation a:hover,
+th.workday,
+.userinfo span[onclick*=javascript],
+.login-form button {
+    background: #313131;
+}
+
+.nicescroll-rails>div,
+.tagcl a:hover,
+.login-menu li:last-child a {
+    background: #074D15 !important;
+}
+
+.p-cats-list {
+    border-top: 1px solid #313131;
+}
+
+.buy-now {
+    border-top: 3px solid #313131;
+}
+
+.userinfo span[onclick*=javascript]:after {
+    border-left-color: #313131 !important;
+}
+
+.search-close span:hover,
+.fotorama__thumb-border,
+.login-menu li a:hover,
+.login-menu li:nth-child(2) a {
+    border-color: #313131 !important;
+}
+
+.tagcl a,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: 1px solid #313131;
+}
+
+a.rev-arrow:hover {
+    border-color: #313131 !important;
+    color: #313131 !important;
+}
+
+a.rev-arrow:hover i,
+.e-title a:hover,
+.userinfo .info ul li span,
+.contacts a,
+.logo:hover,
+#dropmenudiv a:hover {
+    color: #313131 !important;
+}
+
+@media screen and (min-width:940px) {
+    #menu .uMenuRoot>li>a.uMenuItemA,
+    #menu .uMenuRoot>li>a:hover,
+    #menu .uMenuRoot>.uWithSubmenu:hover>a {
+        box-shadow: inset 0 -3px 0 0 #536F1E;
+    }
+    #menu .uWithSubmenu ul {
+        border-top: 1px solid #0C581B;
+    }
+}
+
+@media screen and (max-width:939px) {
+    #menu {
+        box-shadow: inset 0 3px 0 0 #313131, 0 5px 10px rgba(0, 0, 0, 0.15);
+    }
+}
+
 
 /* --------------------------------------- */
