@@ -29,10 +29,6 @@
 
 /* ��� ����������� ������� �� ����� �������, �������� ������� float: right; � float: left;  */
 
-body {
-    background: #f6f6f6
-}
-
 ::selection {
     background: #313131;
     color: #FFFFFF;

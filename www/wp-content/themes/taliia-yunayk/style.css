@@ -28,3 +28,76 @@ header .phone{
 #menu li.current-menu-item a {
 	box-shadow: inset 0 -3px 0 0 #536F1E;
 }
+
+a:hover {
+	text-decoration: none!important;
+}
+
+.menu-main {
+    list-style: none;
+    border-bottom: 1px solid #799E31;
+    margin: 0 0 5px;
+    padding: 25px 0 5px;
+    text-align: center;
+    background: white;
+}
+
+.menu-main li {
+    display: inline-block;
+}
+
+.menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+
+.menu-main a.current, .menu-main a:hover {
+    color: #074D15;
+}
+
+.menu-main a:before, .menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #536F1E;
+    transition: .8s;
+}
+
+.menu-main a:hover:before {
+    left: 0;
+}
+
+.menu-main a:before, .menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #536F1E;
+    transition: .8s;
+}
+
+.menu-main a:hover:after {
+    right: 0;
+}
+
+.menu-main li:not(:last-child):after {
+    content: "|";
+    color: #606060;
+    display: inline-block;
+    vertical-align: top;
+}
