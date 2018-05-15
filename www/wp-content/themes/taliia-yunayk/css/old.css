@@ -567,7 +567,7 @@ html[xmlns] .slides {display: block;}
  display: block;
 }
 #customers {
- padding: 90px 0;
+ padding: 40px 0;
 }
 .customer {
  width: 193px;
@@ -726,7 +726,8 @@ a.rev-arrow i {
  padding-right: 5px;
 }
 .f-soc {
- padding-top: 10px;
+    padding-top: 50%;
+    margin-top: -25%;
 }
 .f-soc a {
  display: block;
@@ -736,7 +737,7 @@ a.rev-arrow i {
  line-height: 40px;
  border-radius: 40px;
  float: left;
- margin-right: 5px;
+ margin-right: 15px;
 }
 .f-soc a .fa {
  font-size: 16px;

@@ -110,3 +110,82 @@ a:hover {
  #steps h4{
    color: #ffc500;
 }
+#category .category{
+    width: calc(25% - 10px);
+    float: left;
+    margin: 0 5px;
+}
+#portfolio, .copiryte{
+    clear: both;
+}
+.block-usr {
+    width: 90%;
+}
+ footer > div {
+    width: 80%;
+}
+.block-usr, footer > div{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.category{   
+    text-align: center;
+}
+.title1-descr.animated.fadeInUp li{
+    line-height: 25px!important;
+}
+.title1-descr.animated.fadeInUp{
+    margin-bottom: 10px!important;
+}
+
+#category .button {
+    margin: 10px;
+    background-color: #313131;
+}
+#category .button a{
+    color: #fff;
+}
+
+#category {
+    padding-bottom: 25px;
+}
+footer > div > div{
+    width: calc(100%/3);
+    float: left;
+}
+
+footer > div > div > div{
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer, footer a, footer h5{
+    background-color: #212121;
+    color: #fff!important;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer .list-small li:before, footer .f-block-cnt i {
+    color: #828080;
+}
+
+footer .f-block-cnt i {
+    margin-right: 10px;
+}
+
+footer .f-soc a {
+    background-color: #828080; 
+}
+
+footer {
+    padding: 20px 0;
+}
+
+.copiryte {
+    margin-top: 10px;
+    text-align: center;
+}
