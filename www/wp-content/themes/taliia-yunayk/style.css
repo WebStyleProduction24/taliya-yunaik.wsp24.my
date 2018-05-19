@@ -183,9 +183,18 @@ footer .f-soc a {
 
 footer {
     padding: 20px 0;
+    clear: both;
 }
 
 .copiryte {
     margin-top: 10px;
     text-align: center;
 }
+.shablon .content{
+    float: left;
+    width: 80%;
+}
+#sidebar {
+    width: 20%!important;
+    float: left!important;
+} 
