@@ -190,11 +190,35 @@ footer {
     margin-top: 10px;
     text-align: center;
 }
-.shablon .content{
+.sidebar-content{
     float: left;
     width: 80%;
 }
 #sidebar {
     width: 20%!important;
     float: left!important;
-} 
+}
+
+.image-post {
+    float: left;
+    width: 40%;
+}
+
+.image-post img {
+    width: 100%;
+    height: auto;
+}
+
+.post-content {
+    width: 60%;
+    float: left;
+}
+
+.title1 {
+    clear: both;
+}
+
+.post {
+    width: 90%;
+    margin: 0 auto;
+}

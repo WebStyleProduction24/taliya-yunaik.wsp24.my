@@ -8,6 +8,4 @@
         ?>
 </main>
 
-Test
-
 <?php get_footer(); ?>

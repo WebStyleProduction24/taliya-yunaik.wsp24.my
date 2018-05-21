@@ -19,7 +19,7 @@
         					<h5>контакты</h5>
         					<div class="f-block-cnt">
         						<div class="f-contact"><i class="icon-home"></i><a href="#">????????</a></div>
-        						<div class="f-contact"><i class="icon-phone"></i><a href="tel:">????????</a></div>
+        						<div class="f-contact"><i class="icon-phone"></i><a href="tel:+74732787858">8 (473) 278-78-58</a></div>
         						<div class="f-contact"><i class="icon-envelop"></i><a href="mailto:">????????</a></div>
 
         					</div>
@@ -29,8 +29,8 @@
         		<div>
         			<div>
         				<div class="f-soc">
-        					<a href="#" target="_blank"><i class="icon-vk"></i></a>
-        					<a href="#" target="_blank"><i class="icon-instagram"></i></a>
+        					<a href="https://vk.com/club165555192" target="_blank"><i class="icon-vk"></i></a>
+        					<!-- <a href="#" target="_blank"><i class="icon-instagram"></i></a> -->
         				</div>	
         			</div>
         		</div>
