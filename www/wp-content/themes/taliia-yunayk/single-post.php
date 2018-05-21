@@ -3,7 +3,7 @@
 
 
 <div class="post">
-  <div class="image-post"><?php echo get_the_post_thumbnail(); ?></div>
+  <div class="image-post"><a href="<?php the_permalink(); ?>"><?php echo get_the_post_thumbnail(); ?></a></div>
   <div class="post-content">
     <div><span style="font-family: Verdana, Geneva, sans-serif; font-size: 14px;">
       <b><u>Используемые материалы для производства:</u></b></span><br>
