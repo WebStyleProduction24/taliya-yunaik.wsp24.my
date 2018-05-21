@@ -42,3 +42,6 @@ footer li:before, .icon-point-right:before {
 .icon-vk:before {
   content: "\ea98";
 }
+.icon-vk2:before {
+  content: "\e901";
+}

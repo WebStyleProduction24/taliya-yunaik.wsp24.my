@@ -1,12 +1,24 @@
-<p class="title1 animated fadeInUp" data-animated="fadeInUp"><?php the_title(); ?></p>
+<div class="block-post">
+  <p class="title1 animated fadeInUp" data-animated="fadeInUp"><?php the_title(); ?></p>
 
 
 <div class="post">
-	<div class="image-post"><?php echo get_the_post_thumbnail(); ?></div>
-	<div class="post-content"><?php the_excerpt(); ?></div>
+  <div class="image-post"><?php echo get_the_post_thumbnail(); ?></div>
+  <div class="post-content">
+    <div><span style="font-family: Verdana, Geneva, sans-serif; font-size: 14px;">
+      <b><u>Используемые материалы для производства:</u></b></span><br>
+      <b>Ламинированная ДСП:</b> <?php echo (get_post_meta($post->ID, 'punkt1', true)); ?>
+      <br><b>Двери-купе:</b> <?php echo (get_post_meta($post->ID, 'punkt2', true)); ?>
+      <br><b>Система раздвижения:</b> <?php echo (get_post_meta($post->ID, 'punkt3', true)); ?>
+    </div>
+    <div class="price">
+      Стоимость от&nbsp;<b><span style="font-size: 18px;"><?php echo (get_post_meta($post->ID, 'price', true)); ?></span></b>
+    </div>
+    </div>
+  </div>
 </div>
 
-<!--  -->
+  <!--  -->
 <!-- <table cellspacing="0" id="maket">
    <tbody><tr>
      <td id="leftcol">

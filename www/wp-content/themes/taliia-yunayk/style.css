@@ -122,7 +122,7 @@ a:hover {
     width: 90%;
 }
  footer > div {
-    width: 80%;
+    width: 35%;
 }
 .block-usr, footer > div{
     margin: 0 auto;
@@ -150,7 +150,7 @@ a:hover {
     padding-bottom: 25px;
 }
 footer > div > div{
-    width: calc(100%/3);
+    width: 50%;
     float: left;
 }
 
@@ -202,15 +202,18 @@ footer {
 .image-post {
     float: left;
     width: 40%;
+
+    margin-right: 25px;
 }
 
 .image-post img {
-    width: 100%;
+    /*width: 350px;*/
     height: auto;
+        border-radius: 7px;
 }
 
 .post-content {
-    width: 60%;
+    width: calc(60% - 25px);
     float: left;
 }
 
@@ -221,4 +224,9 @@ footer {
 .post {
     width: 90%;
     margin: 0 auto;
+}
+
+.block-post {
+    margin: 30px 0;
+    overflow: hidden;
 }
