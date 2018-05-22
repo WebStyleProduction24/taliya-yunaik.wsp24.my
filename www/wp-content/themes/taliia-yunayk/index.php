@@ -14,7 +14,7 @@
             endwhile; endif;
         ?>
 			</div>
-      <div id="sidebar"><?php dynamic_sidebar('smartslider_area_1'); ?></div>
+      <?php get_sidebar(); ?>
     </div>
 </main>
 

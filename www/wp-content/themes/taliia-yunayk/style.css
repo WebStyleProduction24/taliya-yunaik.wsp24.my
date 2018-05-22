@@ -240,29 +240,6 @@ footer {
 .price {
     margin: 20px 0;
 }
-.textwidget {
-    margin-bottom: 50px;
-    font-size: 13px !important;
-    text-transform: none !important;
-    letter-spacing: 0 !important;
-    font-weight: normal !important;
-    font-family: 'Play', sans-serif !important;
-}
-
-.textwidget li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    list-style-type: none;
-    line-height: 30px;
-}
-
-.textwidget a:before {
-    content: "\f0a9";
-    display: inline-block;
-    font-family: FontAwesome;
-    margin-right: 8px;
-}
 .cat-item {
     padding: 0;
     margin: 0;
@@ -278,8 +255,9 @@ footer {
     margin-right: 8px;
 }
 #sidebar{
-    padding-top: 100px;
+    margin-top: 100px;
 }
+/*
 #sidebar > div {
     display: block !important;
         margin: 0 0 20px;
@@ -290,17 +268,48 @@ footer {
     padding: 0;
     font-family: 'Open Sans';
     color: #96C845;
-}
-#sidebar > div:after{
+}*/
+#sidebar > h4:after{
     content: '';
     display: block;
-    width: 100px;
+    width: 90%;
     height: 1px;
     background: #dcdcdc;
     margin-top: 20px;
 }
-
+#sidebar ul{
+        margin: 0;
+}
 #path {
     background: url(../../uploads/2018/05/41.png) center no-repeat !important;
     background-size: cover !important;
+    margin-top: 20px;
 }
+.ind-page{
+    margin: 20px 0;
+}
+
+main {
+    overflow: hidden;
+}
+/*style fo str contact*/
+.contact{
+    box-shadow: 0 0 15px #343434;
+    color: #767676;
+    overflow: auto;
+    margin-right: 50px;
+}
+.img-contact{
+    width: calc(60% - 20px);
+    float: left;
+    margin: 10px;
+}
+.img-contact img{
+    width: 100%;
+}
+.info-contact{
+    width: calc(40% - 20px);
+    float: left;
+    padding-left: 20px;
+}
+/*end style fo str contact*/

@@ -131,3 +131,15 @@ function true_duplicate_post_link( $actions, $post ) {
 add_filter( 'post_row_actions', 'true_duplicate_post_link', 10, 2 );
 
 register_nav_menu( 'menu', 'Главное меню' ); 
+
+function register_my_widgets(){
+	register_sidebar( array(
+		'name' => "Сайдбар сайта (боковая колонка)",
+		'id' => 'right-sidebar',
+		'description' => 'Эти виджеты будут показаны в правой колонке сайта',
+		'before_title' => '<h4>',
+		'after_title' => '</h4>',
+		'before_widget' => ''
+	) );
+}
+add_action( 'widgets_init', 'register_my_widgets' );
