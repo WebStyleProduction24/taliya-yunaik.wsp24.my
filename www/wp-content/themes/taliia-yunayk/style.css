@@ -46,7 +46,7 @@ a:hover {
     display: inline-block;
 }
 
-.menu-main a {
+.menu-main a, .menu-main button {
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
     letter-spacing: 2px;
@@ -57,13 +57,14 @@ a:hover {
     text-transform: uppercase;
     display: inline-block;
     transition: color .2s;
+    background: none;
 }
 
-.menu-main a.current, .menu-main a:hover {
+.menu-main a.current, .menu-main a:hover, .menu-main button:hover {
     color: #074D15;
 }
 
-.menu-main a:before, .menu-main a:after {
+.menu-main a:before, .menu-main a:after, .menu-main button:before, .menu-main button:after {
     content: "";
     position: absolute;
     height: 4px;
@@ -75,23 +76,11 @@ a:hover {
     transition: .8s;
 }
 
-.menu-main a:hover:before {
+.menu-main a:hover:before, .menu-main button:hover:before {
     left: 0;
 }
 
-.menu-main a:before, .menu-main a:after {
-    content: "";
-    position: absolute;
-    height: 4px;
-    top: auto;
-    right: 50%;
-    bottom: -5px;
-    left: 50%;
-    background: #536F1E;
-    transition: .8s;
-}
-
-.menu-main a:hover:after {
+.menu-main a:hover:after, .menu-main button:hover:after {
     right: 0;
 }
 
@@ -313,3 +302,7 @@ main {
     padding-left: 20px;
 }
 /*end style fo str contact*/
+
+.button_class {
+
+}

@@ -1576,7 +1576,7 @@ hr {
 .pheading h1 {    
     font-size: 24px;
     text-transform: none;}
-.block .navcat:before {
+.block .navcat:before, .block a:before {
     content: "\f0a9";
     display: inline-block;
     font-family: FontAwesome;
