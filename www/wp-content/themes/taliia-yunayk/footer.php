@@ -5,6 +5,7 @@
         				<h5>Информация</h5>
 
         				<?php wp_nav_menu( array(
+                            'theme_location'=> 'footer-menu',
         					'container'       => 'div', 
         					'container_class' => 'f-block-cnt', 
         					'menu_class'      => 'list-small'

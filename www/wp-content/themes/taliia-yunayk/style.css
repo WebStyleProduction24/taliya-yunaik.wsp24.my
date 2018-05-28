@@ -111,7 +111,7 @@ a:hover {
     width: 90%;
 }
  footer > div {
-    width: 35%;
+    width: 53%;
 }
 .block-usr, footer > div{
     margin: 0 auto;
@@ -305,4 +305,49 @@ main {
 
 .button_class {
 
+}
+
+.form label {
+}
+.form .textarea {
+height: 100px;
+}
+.form .send {
+color: #FFFFFF;
+display: block;
+cursor: pointer;
+padding: 5px 11px;
+font-size: 1.2em;
+border: solid 1px #F9F9F9;
+border-radius: 5px;
+background: #357542;
+width: 25%;
+margin:0 auto;
+margin-bottom: 20px;
+}
+.form input:not([type="image"]), .form textarea {
+box-sizing: border-box;
+}
+.form input[type="text"], .form input[type="password"], .form input[type="email"], .form textarea, .form select {
+border: 1px solid #dcdcdc;
+border-radius: 3px;
+background: #fafafa;
+line-height: 22px;
+height: 40px;
+width: 100%;
+padding: 7px 20px;
+font-size: 14px;
+font-family: 'Roboto';
+box-sizing: border-box;
+transition: all .3s ease;
+}
+
+.point-form {
+	width: calc(50% - 10px);
+	float: left;
+	margin: 0 5px;
+}
+
+.form input{
+	
 }

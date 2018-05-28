@@ -3,9 +3,9 @@
 		<div class="b-cnt">
 
 			<li><a href="#" onclick="window.open('https://s01.paulina36.ru/', 'example', 'width=450,height=680')" class="navcat">Скидочный купон</a></li>
-			<li><a href="#calculation" class="navcat">Расчёт стоимости шкафа-купе</a></li>
-			<li><a href="#designer" class="navcat">Пригласить замерщика</a></li>
-			<li><a href="#call" class="navcat">Заказать обратный звонок</a></li>
+			<li><?php echo do_shortcode( '[modal open="357" id="button_id" class="button_class"]Расчёт стоимости шкафа-купе[/modal]' ); ?></li>
+			<li><?php echo do_shortcode( '[modal open="362" id="button_id" class="button_class"]Пригласить замерщика[/modal]' ); ?></li>
+			<li><?php echo do_shortcode( '[modal open="368" id="button_id" class="button_class"]Заказать обратный звонок[/modal]' ); ?></li>
 		</div>
 	</div>
 	<div class="block">

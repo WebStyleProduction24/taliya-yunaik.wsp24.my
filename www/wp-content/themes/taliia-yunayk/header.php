@@ -15,7 +15,7 @@
 		<div class="cnt">
 			<a class="logo" href="/"><img src="<?php echo get_template_directory_uri().'/images/logo.png' ?>"></a>
 			<div class="phone">
-				<a href="tel:+74732787858">8(473) 278-78-58</a>
+				<a href="tel:+74732787858">8 (473) 278-78-58</a>
 			</div>
 			<div class="menu-icon">
 				<i class="fa fa-bars"></i>
@@ -23,6 +23,7 @@
 			<div id="menu">
 
 					<?php wp_nav_menu( array(
+						'theme_location'=> 'menu',
 						'container'       => 'div', 
 						'container_class' => 'uMenuV', 
 						'container_id'    => 'uNMenuDiv1',
