@@ -75,7 +75,7 @@ aside ul, aside ol, aside li {
 textarea {
  overflow: auto;
 }
-.button {
+.button,  .post-content button  {
  display: inline-block;
  padding: 9px 20px;
  border-radius: 2px;
@@ -93,7 +93,7 @@ textarea {
  background: #fff;
  color: #5c5c5c;
 }
-.button.b-color {
+.button.b-color, .post-content button {
  color: #fff;
 }
 .col2 {

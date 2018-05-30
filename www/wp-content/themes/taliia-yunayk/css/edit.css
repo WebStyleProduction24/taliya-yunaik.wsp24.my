@@ -89,7 +89,8 @@ a:hover {
 .navigation a:hover,
 th.workday,
 .userinfo span[onclick*=javascript],
-.login-form button {
+.login-form button,
+ .post-content button  {
     background: #313131;
 }
 

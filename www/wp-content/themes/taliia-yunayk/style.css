@@ -15,8 +15,8 @@ header {
 header .phone{
 	font-size: 18px;
 	font-weight: bold;
-	    display: table-cell;
-    vertical-align: middle;
+ display: table-cell;
+ vertical-align: middle;
 }
 
 #header > .cnt {
@@ -96,7 +96,7 @@ a:hover {
 #steps h3, #steps p{
     color: #ffffff;    
 }
- #steps h4{
+#steps h4{
    color: #ffc500;
 }
 #category .category{
@@ -110,7 +110,7 @@ a:hover {
 .block-usr {
     width: 90%;
 }
- footer > div {
+footer > div {
     width: 53%;
 }
 .block-usr, footer > div{
@@ -144,7 +144,8 @@ footer > div > div{
 }
 
 footer > div > div > div{
-    width: 60%;
+    width: 65%;
+
     margin: 0 auto;
     overflow: hidden;
 }
@@ -198,7 +199,7 @@ footer {
 .image-post img {
     /*width: 350px;*/
     height: auto;
-        border-radius: 7px;
+    border-radius: 7px;
 }
 
 .post-content {
@@ -257,104 +258,234 @@ footer {
     padding: 0;
     font-family: 'Open Sans';
     color: #96C845;
-}*/
-#sidebar > h4:after{
-    content: '';
-    display: block;
-    width: 90%;
-    height: 1px;
-    background: #dcdcdc;
-    margin-top: 20px;
-}
-#sidebar ul{
+    }*/
+    #sidebar > h4:after, #sidebar .b-cnt h4:after{
+        content: '';
+        display: block;
+        width: 90%;
+        height: 1px;
+        background: #dcdcdc;
+        margin-top: 20px;
+    }
+    #sidebar ul{
         margin: 0;
-}
-#path {
-    background: url(../../uploads/2018/05/41.png) center no-repeat !important;
-    background-size: cover !important;
-    margin-top: 20px;
-}
-.ind-page{
-    margin: 20px 0;
-}
+    }
+    #path {
+        background: url(../../uploads/2018/05/41.png) center no-repeat !important;
+        background-size: cover !important;
+        margin-top: 20px;
+    }
+    .ind-page{
+        margin: 20px 0;
+    }
 
-main {
-    overflow: hidden;
-}
-/*style fo str contact*/
-.contact{
-    box-shadow: 0 0 15px #343434;
-    color: #767676;
-    overflow: auto;
-    margin-right: 50px;
-}
-.img-contact{
-    width: calc(60% - 20px);
-    float: left;
-    margin: 10px;
-}
-.img-contact img{
-    width: 100%;
-}
-.info-contact{
-    width: calc(40% - 20px);
-    float: left;
-    padding-left: 20px;
-}
-/*end style fo str contact*/
+    main {
+        overflow: hidden;
+    }
+    /*style fo str contact*/
+    .contact{
+        box-shadow: 0 0 15px #343434;
+        color: #767676;
+        overflow: auto;
+        margin-right: 50px;
+    }
+    .img-contact{
+        width: calc(60% - 20px);
+        float: left;
+        margin: 10px;
+    }
+    .img-contact img{
+        width: 100%;
+    }
+    .info-contact{
+        width: calc(40% - 20px);
+        float: left;
+        padding-left: 20px;
+    }
+    /*end style fo str contact*/
 
-.button_class {
+    .button_class {
 
-}
+    }
 
-.form label {
-}
-.form .textarea {
-height: 100px;
-}
-.form .send {
-color: #FFFFFF;
-display: block;
-cursor: pointer;
-padding: 5px 11px;
-font-size: 1.2em;
-border: solid 1px #F9F9F9;
-border-radius: 5px;
-background: #357542;
-width: 25%;
-margin:0 auto;
-margin-top: 10px;
-}
-.form input:not([type="image"]), .form textarea {
-box-sizing: border-box;
-}
-.form input[type="text"], .form input[type="password"], .form input[type="email"], .form textarea, .form select {
-border: 1px solid #dcdcdc;
-border-radius: 3px;
-background: #fafafa;
-line-height: 22px;
-height: 40px;
-width: 100%;
-padding: 7px 20px;
-font-size: 14px;
-font-family: 'Roboto';
-box-sizing: border-box;
-transition: all .3s ease;
-}
+    .form label {
+    }
+    .form .textarea {
+        height: 100px;
+    }
+    .form .send {
+        color: #FFFFFF;
+        display: block;
+        cursor: pointer;
+        padding: 5px 11px;
+        font-size: 1.2em;
+        border: solid 1px #F9F9F9;
+        border-radius: 5px;
+        background: #357542;
+        width: 25%;
+        margin:0 auto;
+        margin-top: 10px;
+    }
+    .form input:not([type="image"]), .form textarea {
+        box-sizing: border-box;
+    }
+    .form input[type="text"], .form input[type="password"], .form input[type="email"], .form textarea, .form select {
+        border: 1px solid #dcdcdc;
+        border-radius: 3px;
+        background: #fafafa;
+        line-height: 22px;
+        height: 40px;
+        width: 100%;
+        padding: 7px 20px;
+        font-size: 14px;
+        font-family: 'Roboto';
+        box-sizing: border-box;
+        transition: all .3s ease;
+    }
 
-.point-form {
-	width: calc(50% - 10px);
-	float: left;
-	margin: 0 5px;
-}
+    .point-form {
+     width: calc(50% - 10px);
+     float: left;
+     margin: 0 5px;
+ }
 
-.form div.wpcf7-response-output {
+ .form div.wpcf7-response-output {
     margin: 0.5em 0.5em 1em!important;
 }
 .form{
-        margin: 0!important;
+    margin: 0!important;
 }
 
 .block button {
     background: none;
+}
+
+.page-numbers {
+    font-family: 'Play', sans-serif !important;
+}
+
+.page-content {
+    clear: both;
+}
+
+.sidebar-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 780px) {
+    .mobile-content {
+        display: none;
+    }
+    .post-content {
+        height: auto;
+        width: calc(55% - 40px);
+    }
+
+    .post-content > div {
+        font-size: 16px;
+        line-height: 1.35;
+    }
+
+    .image-post {
+        width: 45%;
+    }
+
+    .post-title-tablet {
+        font-size: 17px !important;
+    }
+
+    .post {
+        width: 98%;
+    }
+    .sidebar-content {
+        width: 75% !important;
+    }
+    #sidebar {
+        width: 25% !important;
+    }
+
+    .b-cnt ul, .b-cnt li, .b-cnt button, .cat-item {
+        font-size: 15px;
+    }
+      #portfolio .ngg-gallery-thumbnail-box, .sidebar-content .ngg-gallery-thumbnail-box {
+        max-width: 33%!important;
+    }
+
+    .pagination-table {        
+     position: absolute;
+    width: 100%;
+    }
+
+    .ind-page .ngg-navigation {
+    font-size: 1.5em!important;    
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+}
+.ind-page {
+    position: relative;
+    padding-bottom: 40px !important;
+}
+    body {
+        min-width: 320px !important;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #sidebar, footer div:first-child, #otzivi, #slider, .menu-main li:not(:last-child):after, .menu-main li:nth-child(2), .menu-main li:nth-child(3), .phone span, #steps{
+        display: none;
+    }
+    .sidebar-mobile {
+        display: block;
+    }
+
+    .phone a:before {
+      content: "\e942";        
+  }
+  .logo img {
+    width: 90%;
+    }
+
+    .phone {
+        font-size: 30px !important;
+    }
+
+    .menu-icon .fa {
+        font-size: 23px !important;
+    }
+
+    .menu-main li:first-child button {
+        border-bottom: 1px solid #606060;
+        margin-bottom: 20px;
+    }
+
+    #category .category, footer > div, .sidebar-content, .image-post, .post-content {
+        width: 100%;
+    }
+
+    #portfolio .ngg-gallery-thumbnail-box, .sidebar-content .ngg-gallery-thumbnail-box {
+        max-width: 50%!important;
+    }
+    #path {
+        padding: 17px 0!important;
+        line-height: 0px!important;
+    }
+
+    h4 {
+        color: #000 !important;
+        font-size: 24px!important;
+        font-weight: 900!important;
+        text-transform: uppercase!important;
+        text-align: center!important;
+        background: url(../images/title1.png) bottom center no-repeat!important;
+        font-family: 'Play', sans-serif !important;
+    }
+    .contact {
+     margin-right: 0px;
+     margin-bottom: 5px; 
+}
+.img-contact, .info-contact {
+    width: calc(100% - 20px);
+}
 }
