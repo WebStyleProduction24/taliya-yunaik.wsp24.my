@@ -13,12 +13,12 @@
     dynamic_sidebar('right-sidebar');
   ?>
     </div>
-    <div class="sidebar-content"> 
+   <div class="sidebar-content"> 
       <?php
       if (have_posts()): while( have_posts()) : the_post();
         get_template_part( 'single', 'post' );
       endwhile; endif;?>
-      <div style="text-align: center;" class="pagination-table>
+      <div style="text-align: center;" class="pagination-table">
         <?php
         the_posts_pagination( array(
          'screen_reader_text' => __( '' ), ) );

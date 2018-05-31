@@ -15,7 +15,7 @@
 		<div class="cnt">
 			<a class="logo" href="/"><img src="<?php echo get_template_directory_uri().'/images/logo.png' ?>"></a>
 			<div class="phone">
-				<a href="tel:+74732787858"><span>8 (473) 278-78-58</span></a>
+				<a href="tel:+74732787858"><span  class="icon-phone-mobile"></span><span>8 (473) 278-78-58</span></a>
 			</div>
 			<div class="menu-icon">
 				<i class="fa fa-bars"></i>

@@ -27,7 +27,7 @@
 .icon-home:before {
   content: "\e900";
 }
-.icon-phone:before {
+.icon-phone:before, .icon-phone-mobile:before {
   content: "\e942";
 }
 .icon-envelop:before {
@@ -44,4 +44,10 @@ footer li:before, .icon-point-right:before {
 }
 .icon-vk2:before {
   content: "\e901";
+}
+
+@media only screen and (min-width: 481px) {
+  .icon-phone-mobile:before {
+    display: none;
+  }
 }

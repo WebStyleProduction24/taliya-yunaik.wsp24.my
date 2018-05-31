@@ -1,5 +1,5 @@
 <div id="sidebar" data-animated="fadeInRight" class="animated fadeInRight">
-	<div class="block">
+	<div class="block tablet">
 		<div class="b-cnt">
 
 			<li><?php echo do_shortcode( '[modal open="406" id="button_id" class="button_class"]Скидочный купон[/modal]' ); ?></li>
