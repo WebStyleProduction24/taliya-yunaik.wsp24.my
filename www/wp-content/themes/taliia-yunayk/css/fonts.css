@@ -51,3 +51,25 @@ footer li:before, .icon-point-right:before {
     display: none;
   }
 }
+
+@font-face {
+  font-family: 'menu-mobile';
+  src:  url('../fonts/menu-mobile.eot?c7q8wl');
+  src:  url('../fonts/menu-mobile.eot?c7q8wl#iefix') format('embedded-opentype'),
+    url('../fonts/menu-mobile.ttf?c7q8wl') format('truetype'),
+    url('../fonts/menu-mobile.woff?c7q8wl') format('woff'),
+    url('../fonts/menu-mobile.svg?c7q8wl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-menu3:before, .icon-menu4:before {
+  font-family: 'menu-mobile' !important;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.icon-menu3:before {
+  content: "\e9bf";  
+}
+.icon-menu4:before {
+  content: "\e9c0";
+}

@@ -1257,20 +1257,20 @@ hr {
  width: 90%;
  }
  #menu {
- position: absolute;
+ /*position: absolute;
  top: 70px;
- right: 0;
- width: 100%;
- background: #fff;
- padding-top: 3px;
- display: none;
+ right: 0;*/
+ /*width: 100%;*/
+/* background: #fff;
+ padding-top: 3px;*/
+ /*display: none;*/
  }
 .pollBut {padding:7px 10px !important;}
  #menu ul, #menu ul li {
  list-style: none;
  margin: 0;
  padding: 0;
- display: block;
+ /*display: block;*/
  position: relative;
  }
  #menu ul li a {

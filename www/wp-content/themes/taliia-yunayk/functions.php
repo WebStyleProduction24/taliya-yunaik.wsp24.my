@@ -27,6 +27,22 @@ function enqueue_styles() {
 
 
 add_action('wp_enqueue_scripts', 'enqueue_styles');
+
+function my_scripts_method() {
+	// wp_deregister_script( 'jquery' );
+	// wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js');
+	// wp_enqueue_script( 'jquery' );
+    wp_deregister_script( 'jquery' );
+    wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js');
+    wp_enqueue_script( 'jquery' );
+    // wp_register_script( 'menu', get_template_directory_uri().'/js/menu.js');
+    // wp_enqueue_script( 'menu' );
+    wp_register_script( 'menu-mobile-tablet', get_template_directory_uri().'/js/menu-mobile-tablet.js');
+	wp_enqueue_script( 'menu-mobile-tablet' );
+} 
+add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
+
+
 /*
  * Функция создает дубликат поста в виде черновика и редиректит на его страницу редактирования
  */

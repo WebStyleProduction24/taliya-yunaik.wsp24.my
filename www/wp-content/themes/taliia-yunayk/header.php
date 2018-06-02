@@ -6,6 +6,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<title><?php echo wp_get_document_title(); ?></title>
 		<?php wp_head(); ?>
+		
 </head>
 
 <body>
@@ -17,9 +18,9 @@
 			<div class="phone">
 				<a href="tel:+74732787858"><span  class="icon-phone-mobile"></span><span>8 (473) 278-78-58</span></a>
 			</div>
-			<div class="menu-icon">
+			<!-- <div class="menu-icon">
 				<i class="fa fa-bars"></i>
-			</div>
+			</div> -->
 			<div id="menu">
 
 					<?php wp_nav_menu( array(
@@ -27,7 +28,8 @@
 						'container'       => 'div', 
 						'container_class' => 'uMenuV', 
 						'container_id'    => 'uNMenuDiv1',
-						'menu_class'      => 'uMenuRoot'
+						'menu_class'      => 'uMenuRoot',
+						'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul><a href="#" id="open" class="icon-menu3">&nbsp;</a><a href="#" id="close" class="icon-menu4">&nbsp;</a>'
 					
 					) ); ?>
 			</div>
