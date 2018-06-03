@@ -19,6 +19,10 @@ header .phone{
    vertical-align: middle;
 }
 
+#info, #steps {
+    margin: 0 !important;
+}
+
 #header > .cnt {
     display: table;
 }
@@ -144,8 +148,7 @@ footer > div > div{
 }
 
 footer > div > div > div{
-    width: 65%;
-
+    width: 80%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -182,8 +185,8 @@ footer {
 }
 .sidebar-content{
     float: left;
-    width: calc(80% - 20px);
-    padding-right: 20px;
+    width: calc(80% - 40px);
+    padding: 0 20px;
 }
 #sidebar {
     width: 20%!important;
@@ -347,6 +350,10 @@ main {
 
 .block button {
     background: none;
+    text-align: left;
+    text-indent: -10px;
+    padding-left: 20px;
+    line-height: 23px;
 }
 
 .page-numbers {
@@ -366,9 +373,38 @@ main {
     display: none;
 }
 
+.sidebar-content .ngg-gallery-thumbnail-box {
+    width: calc(100%/4) !important;
+}
 
+@media (min-width: 481px) and (max-width: 780px) {
+    #header .phone    {
+      height: 100%;
+    display: inline-flex;
+    padding-top: 24px;
+   }
+
+   .menu-main button {
+    margin: 0 20px;
+    font-size: 14px;
+}
+}
 
 @media only screen and (max-width: 780px) {
+.realmodal-window {
+    left: 40%;
+    -webkit-transform: translate(-31%, -50%);
+    -ms-transform: translate(-31%, -50%);
+    -o-transform: translate(-31%, -50%);
+    transform: translate(-31%, -50%); 
+}
+.sidebar-content{
+    width: calc(75% - 40px);
+}
+
+   #header #menu {
+    background-color: #fff;
+   }
 
 
    #open {
@@ -415,9 +451,6 @@ main {
 .post {
     width: 98%;
 }
-.sidebar-content {
-    width: calc(75% - 20px);
-}
 #sidebar {
     width: 25% !important;
 }
@@ -443,7 +476,7 @@ main {
 }
 .ind-page {
     position: relative;
-    padding-bottom: 40px !important;
+    padding-bottom: 60px !important;
 }
 body {
     min-width: 320px !important;
@@ -452,6 +485,16 @@ body {
 }
 
 @media only screen and (max-width: 480px){
+    .menu-main a:before, .menu-main a:after, .menu-main button:before, .menu-main button:after {
+        height: 0;
+    }
+
+    .sidebar-content {
+        padding: 0 10px;
+    }
+    #header .phone    {
+    background-color: #fff;
+   }
     #sidebar, footer div:first-child, #otzivi, #slider, .menu-main li:not(:last-child):after, .menu-main li:nth-child(2), .menu-main li:nth-child(3), .phone span:nth-child(2), #steps{
         display: none;
     }
@@ -480,9 +523,12 @@ body {
         width: 208px!important;
     }
 
-    #category .category, footer > div, .sidebar-content, .image-post, .post-content {
+    #category .category, footer > div, .image-post, .post-content {
         width: 100%;
     }
+     .sidebar-content {
+        width: calc(100% - 20px)
+     }
 
     #portfolio .ngg-gallery-thumbnail-box, .sidebar-content .ngg-gallery-thumbnail-box {
         max-width: 50%!important;
@@ -508,4 +554,25 @@ body {
    .img-contact, .info-contact {
        width: calc(100% - 20px);
    }
+
+   .realmodal-window {
+    left: 0;
+    top: 0;
+    webkit-transform:none;
+    -ms-transform:none;
+    -o-transform:none;
+    transform: none;
+   }
+
+   .realmodal *[data-realmodal="close"] {
+    top: 10px;
+    right: 5px;
+}
+.form .send {
+    width: 40%;
+}
+
+.point-form {
+    width: calc(100% - 10px);
+    }
 }

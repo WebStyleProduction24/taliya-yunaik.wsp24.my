@@ -3,7 +3,7 @@
 		<div class="b-cnt">
 
 			<li><?php echo do_shortcode( '[modal open="406" id="button_id" class="button_class"]Скидочный купон[/modal]' ); ?></li>
-			<li><?php echo do_shortcode( '[modal open="357" id="button_id" class="button_class"]Расчёт стоимости шкафа-купе[/modal]' ); ?></li>
+			<li><?php echo do_shortcode( '[modal open="357" id="button_id" class="button_class"]Расчёт стоимости<br>шкафа-купе[/modal]' ); ?></li>
 			<li><?php echo do_shortcode( '[modal open="362" id="button_id" class="button_class"]Пригласить замерщика[/modal]' ); ?></li>
 			<li><?php echo do_shortcode( '[modal open="368" id="button_id" class="button_class"]Заказать обратный звонок[/modal]' ); ?></li>
 		</div>
