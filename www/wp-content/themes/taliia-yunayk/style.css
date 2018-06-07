@@ -193,6 +193,14 @@ footer {
     float: left!important;
 }
 
+#portfolio .ngg-gallery-thumbnail-box{
+    width: 25%;
+}
+
+#portfolio .ngg-gallery-thumbnail-box img{
+    width: 100%;
+}
+
 .image-post {
     float: left;
     width: 40%;
@@ -487,6 +495,10 @@ body {
 @media only screen and (max-width: 480px){
     .menu-main a:before, .menu-main a:after, .menu-main button:before, .menu-main button:after {
         height: 0;
+    }
+
+    #portfolio .ngg-gallery-thumbnail-box{
+    width: 50%;
     }
 
     .sidebar-content {
