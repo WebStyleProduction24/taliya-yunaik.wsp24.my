@@ -19,6 +19,10 @@ header .phone{
    vertical-align: middle;
 }
 
+.certificat .block-usr .ngg-gallery-thumbnail-box {
+	width: calc(100%/7) !important;
+}
+
 #info, #steps {
     margin: 0 !important;
 }
@@ -111,6 +115,9 @@ a:hover {
 #portfolio, .copiryte{
     clear: both;
 }
+
+
+	.certificat .ngg-gallery-thumbnail img {margin: 0 auto;}
 .block-usr {
     width: 90%;
 }
@@ -388,7 +395,7 @@ main {
 @media (min-width: 481px) and (max-width: 780px) {
     #header .phone    {
       height: 100%;
-    display: inline-flex;
+    display: inline-block;
     padding-top: 24px;
    }
 
@@ -399,6 +406,7 @@ main {
 }
 
 @media only screen and (max-width: 780px) {
+
 .realmodal-window {
     left: 40%;
     -webkit-transform: translate(-31%, -50%);
@@ -493,6 +501,10 @@ body {
 }
 
 @media only screen and (max-width: 480px){
+	.certificat .block-usr .ngg-gallery-thumbnail-box {
+		width: 50% !important;
+	}
+
     .menu-main a:before, .menu-main a:after, .menu-main button:before, .menu-main button:after {
         height: 0;
     }

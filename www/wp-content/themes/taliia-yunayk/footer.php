@@ -20,7 +20,7 @@
         					<h5>контакты</h5>
         					<div class="f-block-cnt">
         						<!-- <div class="f-contact"><i class="icon-home"></i><a href="#">????????</a></div> -->
-        						<div class="f-contact"><i class="icon-phone"></i><a href="tel:+74732787858">8 (473) 278-78-58</a></div>
+        						<div class="f-contact"><i class="icon-phone"></i><a href="tel:+74732787858">8 (473) 278-78-58</a><br><i class="icon-phone"></i><a href="tel:+79009626495">8 (900) 962-64-95</a></div>
         						<div class="f-contact"><i class="icon-envelop"></i><a href="mailto:admin@taliia-yunayk.ru">admin@taliia-yunayk.ru</a></div>
                                 <div class="f-contact"><i class="icon-vk2"></i><a href="https://vk.com/club165555192" target="_blank">TaliiaYunayk.vrn</a></div>
         					</div>
